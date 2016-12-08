@@ -21,7 +21,13 @@ public class TesteCubo {
    * @throws com.dudaskank.testecubo.CuboException
    */
   public static void main(String[] args) throws CuboException {
-    File file = new File("corrida.txt");
+    String arquivo;
+    if (args.length == 1) {
+      arquivo = args[0];
+    } else {
+      arquivo = "corrida.txt";
+    }
+    File file = new File(arquivo);
     CorridaFileReader reader = new CorridaFileReader();
     Corrida corrida = reader.parseFile(file);
     ResultadoCorrida resultado = corrida.processarCorrida();

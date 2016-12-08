@@ -12,7 +12,6 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalUnit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedHashMap;
@@ -56,7 +55,6 @@ public class Corrida {
     duracao = Duration.of(duracaoNano, ChronoUnit.NANOS).plus(voltas.get(0).getTempo());
     
     Collections.sort(voltas, new Volta.OrdemChegada());
-    System.out.println(voltas);
     // separa as voltas por cada piloto
     for (Volta volta : voltas) {
       // adiciona a volta para a lista do piloto

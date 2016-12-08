@@ -1,1 +1,9 @@
+Bom, montei o programa com o IDE Netbeans, pois ele já cria um build do Ant paraq executar todas as tarefas.
 
+A classe principal é TesteCubo, que espera um nome de arquivo ou usa como padrão o "corrida.txt", que é uma cópia do que está no endereço https://github.com/DevAmil/kart-rank.
+
+Uma coisa que notei foi que o último tempo de Felipe Massa aparece o nome dele como F.MASS, só pra informar...
+
+Usei apenas o que já existe no Java 8, sem nenhuma biblioteca extra, como foi sugerido, e implementei todos os bônus. Infelizmente tive alguns problemas no Freelance que estou fazendo e pessoais que acabou demorando demais minha resposta, mas espero ainda poder trabalhar aí com vocês, gostei do pouco que vi.
+
+Um abraço e até a próxima.
